@@ -7,3 +7,12 @@
   height: 30px;
   background-image: linear-gradient(rgb(255, 96, 96), rgb(255, 0, 0));
 }
+li {
+  text-decoration: none;
+  font-size: 20px;
+  list-style: none;
+  font-variant-caps: all-small-caps;
+  padding-left: 15px;
+}
+span {
+}
