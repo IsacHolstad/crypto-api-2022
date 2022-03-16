@@ -1,0 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navigation {
+  width: 100%;
+  height: 30px;
+  background-image: linear-gradient(rgb(255, 96, 96), rgb(255, 0, 0));
+}
