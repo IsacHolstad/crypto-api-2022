@@ -15,15 +15,18 @@ async function cryptoNames() {
         const cryptoData = responseJSON.data;
         console.log(cryptoData)
         for (let i = 0; i < cryptoData.length; i++) {
+            if(i === 25) {
+                break
+            }
             console.log(cryptoData[i]);
-            cryptoContainer.innerHTML += `<li><span>${cryptoData[i].id}</span></li>`;
+            cryptoContainer.innerHTML += `<li><span><a href="detailcrypto.html?id=${cryptoData[i].id}">${cryptoData[i].name}</a></span></li>`;
         }
 
 
 
     }
     catch(error) {
-        //cryptoContainer.innerHTML += `<li>there is an error happening</li>`
+        cryptoContainer.innerHTML += `<li>there is an error happening</li>`
        
     }
 }
