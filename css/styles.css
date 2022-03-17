@@ -9,11 +9,26 @@
 }
 li {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 21px;
   list-style: none;
   font-variant-caps: all-small-caps;
-  padding-left: 15px;
+  padding-left: 25px;
 }
-span {
-  padding-top: 50px;
+
+span:hover {
+  cursor: pointer;
+}
+.footer {
+  position: absolute;
+  top: 1100px;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(rgb(255, 96, 96), rgb(255, 0, 0));
+}
+.footerinfo {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding-top: 10px;
+  justify-content: space-around;
 }
