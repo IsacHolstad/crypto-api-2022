@@ -14,11 +14,14 @@ async function cryptoNames() {
         const responseJSON = await response.json(); // convert the response to json data
         console.log(responseJSON);
         const cryptoData = responseJSON.data;
-        console.log(cryptoData)
+        console.log(cryptoData[i].id)
         for (let i = 0; i < cryptoData.length; i++) {
+            if (i === 25) {
+                break
+            }
             
-            console.log(cryptoData[i].data);
-            cryptoContainer.innerHTML += `<li><span><a href="detailcrypto.html?id=${cryptoData[i].symbol}">${cryptoData[i].symbol}</a></span></li>`;
+            console.log(cryptoData[i].name);
+            cryptoContainer.innerHTML += `<li><span>${cryptoData[i].rank}</span></li>`;
         }
 
 
@@ -30,3 +33,4 @@ async function cryptoNames() {
     }
 }
 cryptoNames();
+console.log()
