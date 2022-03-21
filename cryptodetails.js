@@ -21,7 +21,7 @@ async function cryptoNames() {
             }
             
             console.log(cryptoData[i].name);
-            cryptoContainer.innerHTML += `<li><span>${cryptoData[i].rank}</span></li>`;
+            cryptoContainer.innerHTML += `<li><span>${cryptoData[i].name}</span></li>`;
         }
 
 
