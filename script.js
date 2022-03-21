@@ -19,7 +19,7 @@ async function cryptoNames() {
                 break
             }
             console.log(cryptoData[i]);
-            cryptoContainer.innerHTML += `<li><span><a href="detailcrypto.html?id=${cryptoData[i].id}">${cryptoData[i].id}</a></span></li>`;
+            cryptoContainer.innerHTML += `<li><span><a href="detailcrypto.html?id=${cryptoData[i].id}">${cryptoData[i].id}, ${cryptoData[i].supply}</a></span></li>`;
         }
 
 

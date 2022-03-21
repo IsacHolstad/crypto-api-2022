@@ -21,6 +21,18 @@ li {
 span:hover {
   cursor: pointer;
 }
+.homebtn {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 5px;
+  width: 60px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.homebtn:hover {
+  box-shadow: 1px 2px 2px;
+  font-size: 15px;
+}
 
 .footer {
   position: absolute;

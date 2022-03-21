@@ -21,6 +21,10 @@ li {
 span:hover {
   cursor: pointer;
 }
+a {
+  font-size: 30px;
+  padding-left: 25px;
+}
 
 .footer {
   position: absolute;
