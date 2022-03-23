@@ -17,14 +17,14 @@ async function cryptoNames() {
         const responseJSON = await response.json(); // convert the response to json data
         console.log(responseJSON);
         const cryptoData = responseJSON.data;
-        console.log(cryptoData[i].id)
+        console.log(cryptoData)
         for (let i = 0; i < cryptoData.length; i++) {
             if (i === 25) {
                 break
             }
             
             console.log(cryptoData[i].name);
-            cryptoContainer.innerHTML += `<li><span>${cryptoData[i].name}</span></li>`;
+            cryptoContainer.innerHTML += `<li><span>${cryptoData[i].name}, ${cryptoData[i].supply}</span></li>`;
         }
 
 
