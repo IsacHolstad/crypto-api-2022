@@ -17,17 +17,17 @@ const cryptoContainer = document.querySelector(".container");
 async function cryptoNames() {
     try{
         const response = await fetch(corsFixUrl);
-        console.log(response.type);
+        //console.log(response.type);
         const responseJSON = await response.json(); // convert the response to json data
-        console.log(responseJSON);
+        //console.log(responseJSON);
         const cryptoData = responseJSON.data;
-        console.log(cryptoData)
+        //console.log(cryptoData)
         for (let i = 0; i < cryptoData.length; i++) {
             if(i === 25) {
                 break
             }
-            console.log(cryptoData[i]);
-            cryptoContainer.innerHTML += `<li><span><a href="detailcrypto.html?id=${cryptoData[i].id}">${cryptoData[i].id}, ${cryptoData[i].supply}</a></span></li>`;
+            //console.log(cryptoData[i]);
+            cryptoContainer.innerHTML += `<li><span><a href="detailcrypto.html?id=${cryptoData[i].id}">${cryptoData[i].id}, ${cryptoData[i].supply} USD</a></span></li>`;
         }
 
 

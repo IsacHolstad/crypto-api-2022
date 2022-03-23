@@ -1,7 +1,7 @@
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id")
-const Apiurl = 'api.coincap.io/v2/assets/${id}'
+const Apiurl = 'api.coincap.io/v2/assets/'
 console.log(Apiurl)
 const proxy = "https://noroffcors.herokuapp.com/";
 const corsFixUrl = proxy + Apiurl;
@@ -24,7 +24,7 @@ async function cryptoNames() {
             }
             
             console.log(cryptoData[i].name);
-            cryptoContainer.innerHTML += `<li><span>${cryptoData[i].name}, ${cryptoData[i].supply}</span></li>`;
+            cryptoContainer.innerHTML += `<li><h2>${cryptoData[i].name}</h2>${cryptoData[i].supply}</li>`;
         }
 
 
