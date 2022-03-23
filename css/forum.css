@@ -40,6 +40,18 @@
   background-color: red;
   cursor: pointer;
 }
+.h3tag {
+  padding-top: 400px;
+  text-align: center;
+}
+.ptag {
+  width: 400px;
+  text-align: center;
+  padding-left: 28%;
+}
+.ptag:hover {
+  font-size: 17px;
+}
 .footer {
   position: absolute;
   top: 1100px;

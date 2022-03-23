@@ -43,3 +43,17 @@ a {
   padding-top: 10px;
   justify-content: space-around;
 }
+
+@media screen and (min-width: 320px) (max-width: 420px) {
+  li {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 10px;
+    list-style: none;
+    font-variant-caps: all-small-caps;
+    padding-left: 25px;
+    padding-inline-end: 3px;
+  }
+}
