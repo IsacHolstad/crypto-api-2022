@@ -1,4 +1,5 @@
 * {
+  font-family: "Roboto", sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -30,28 +31,83 @@
   height: 300px;
   background-color: orange;
 }
-#submitbtn {
-  width: 100px;
+.container {
+  background-image: linear-gradient(lightblue, rgb(17, 17, 138));
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 100px;
+  box-shadow: 1px 2px 2px;
 }
-#gmailbox:hover {
-  background-color: green;
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
 }
-#submitbtn:hover {
-  background-color: red;
+.container a {
+  text-decoration: none;
+  color: lightblue;
+}
+.btn {
   cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background-color: lightblue;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.text {
+  margin-top: 30px;
+}
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+.button-three:after {
+  content: "";
+  background: #f1c40f;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+.button-three:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
 }
 .h3tag {
-  padding-top: 400px;
+  padding-top: 100px;
   text-align: center;
 }
 .ptag {
+  padding-top: 20px;
   width: 400px;
   text-align: center;
   padding-left: 28%;
 }
-.ptag:hover {
-  font-size: 17px;
-}
+
 .footer {
   position: absolute;
   top: 1100px;
