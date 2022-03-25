@@ -118,7 +118,7 @@
 .footer {
   position: absolute;
   top: 1100px;
-  width: 100%;
+  width: 120%;
   height: 100px;
   background-image: linear-gradient(rgb(255, 96, 96), rgb(255, 0, 0));
 }

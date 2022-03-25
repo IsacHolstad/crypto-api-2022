@@ -2,10 +2,14 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  background-color: rgb(240, 240, 240);
+}
 .navigation {
   width: 100%;
   height: 30px;
-  background-image: linear-gradient(rgb(113, 191, 218), darkblue);
+  background-color: lightblue;
+  border-bottom: 2px solid gray;
 }
 li {
   text-decoration: none;
@@ -16,25 +20,42 @@ li {
   list-style: none;
   font-variant-caps: all-small-caps;
   padding-left: 25px;
-  padding-inline-end: 3px;
+  padding-top: 25px;
+  padding-right: 25px;
+  height: 30px;
+  text-align: center;
 }
+
 span:hover {
   cursor: pointer;
 }
-.cryptocard {
-  margin-left: 60px;
-  margin-top: 55px;
-  width: 450px;
+.container {
+  margin-top: 85px;
+  margin-left: 85px;
   border-radius: 3px;
-  box-shadow: 2px 2px 2px 2px;
+  box-shadow: 1px 2px 1px;
+  width: 500px;
+  background-color: lightgray;
   height: 200px;
-  color: black;
-  cursor: pointer;
-  text-decoration: dotted;
-  background-image: linear-gradient(rgb(113, 191, 218), rgb(77, 77, 238));
 }
-.cryptocard:hover {
-  background-image: linear-gradient(rgb(93, 177, 206), rgb(62, 62, 238));
+.container:hover {
+  background-color: rgb(161, 161, 161);
+}
+.h4tag {
+  margin-left: 25px;
+  margin-top: 25px;
+  font-variant-caps: all-petite-caps;
+}
+a {
+  font-size: 25px;
+  padding-left: 40px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px;
 }
 .about {
   background-color: transparent;
@@ -59,15 +80,10 @@ span:hover {
 
 .footer {
   position: absolute;
-  top: 1100px;
+  top: 1600px;
   width: 100%;
+  color: black;
   height: 120px;
+  font-size: 10px;
   background-image: linear-gradient(rgb(113, 191, 218), darkblue);
-}
-.footerinfo {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  padding-top: 10px;
-  justify-content: space-around;
 }
