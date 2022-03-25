@@ -58,6 +58,11 @@
   border: 0;
   border-radius: 5px;
   padding-top: 20px;
+  font-weight: bold;
+}
+.btn:hover {
+  box-shadow: 2px 1px 1px;
+  color: green;
 }
 
 .btn:focus {
@@ -100,6 +105,8 @@
 .h3tag {
   padding-top: 100px;
   text-align: center;
+  font-weight: bolder;
+  font-variant-caps: all-small-caps;
 }
 .ptag {
   padding-top: 20px;
@@ -115,10 +122,23 @@
   height: 100px;
   background-image: linear-gradient(rgb(255, 96, 96), rgb(255, 0, 0));
 }
-.footerinfo {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  padding-top: 10px;
-  justify-content: space-around;
+.about {
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  text-decoration: none;
+  font-size: 27px;
+}
+.forum {
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  text-decoration: none;
+  font-size: 27px;
+}
+.forum:hover {
+  color: white;
+  font-size: 28px;
+}
+.about:hover {
+  color: white;
+  font-size: 28px;
 }

@@ -5,7 +5,7 @@
 .navigation {
   width: 100%;
   height: 30px;
-  background-image: linear-gradient(rgb(255, 96, 96), rgb(255, 0, 0));
+  background-image: linear-gradient(rgb(113, 191, 218), darkblue);
 }
 li {
   text-decoration: none;
@@ -21,13 +21,47 @@ li {
 span:hover {
   cursor: pointer;
 }
+.cryptocard {
+  margin-left: 60px;
+  margin-top: 55px;
+  width: 450px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px;
+  height: 200px;
+  color: black;
+  text-decoration: dotted;
+  background-image: linear-gradient(rgb(113, 191, 218), rgb(77, 77, 238));
+}
+.cryptocard:hover {
+  background-image: linear-gradient(rgb(93, 177, 206), rgb(62, 62, 238));
+}
+.about {
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  text-decoration: none;
+  font-size: 27px;
+}
+.forum {
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  text-decoration: none;
+  font-size: 27px;
+}
+.forum:hover {
+  color: white;
+  font-size: 28px;
+}
+.about:hover {
+  color: white;
+  font-size: 28px;
+}
 
 .footer {
   position: absolute;
   top: 1100px;
   width: 100%;
   height: 100px;
-  background-image: linear-gradient(rgb(255, 96, 96), rgb(255, 0, 0));
+  background-image: linear-gradient(rgb(113, 191, 218), darkblue);
 }
 .footerinfo {
   display: flex;
