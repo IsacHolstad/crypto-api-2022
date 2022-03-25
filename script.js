@@ -1,6 +1,6 @@
 
-const APIurl = 'api.coincap.io/v2/assets/'
-const proxy = 'https://noroffcors.herokuapp.com/';
+const APIurl = 'api.coincap.io/v2/assets/?key=66579196-1262-493b-bde9-f1a036eea696'
+const proxy = "https://noroffcors.herokuapp.com/";
 const corsFixUrl = proxy + APIurl;
 //console.log(corsFixUrl);
 //var key = "66579196-1262-493b-bde9-f1a036eea696"
@@ -18,7 +18,7 @@ async function cryptoNames() {
         const cryptoData = responseJSON.data;
         //console.log(cryptoData)
         for (let i = 0; i < cryptoData.length; i++) {
-            if(i === 25) {
+            if(i === 20) {
                 break
             }
             //console.log(cryptoData[i]);

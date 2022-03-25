@@ -1,7 +1,7 @@
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get('id')
-const Apiurl = 'api.coincap.io/v2/assets'
+const Apiurl = 'api.coincap.io/v2/assets/'
 console.log(Apiurl)
 const proxy = "https://noroffcors.herokuapp.com/";
 const corsFixUrl = proxy + Apiurl;
