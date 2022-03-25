@@ -114,7 +114,9 @@
   text-align: center;
   padding-left: 28%;
 }
-
+button.btn {
+  margin-top: 20px;
+}
 .footer {
   position: absolute;
   top: 1100px;
