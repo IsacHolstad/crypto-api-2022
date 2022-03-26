@@ -5,17 +5,28 @@
 }
 .navigation {
   width: 100%;
-  height: 30px;
-  background-image: linear-gradient(rgb(255, 96, 96), rgb(255, 0, 0));
+  height: 35px;
+  background-color: lightblue;
+  border-bottom: 2px solid gray;
 }
 .h1tag {
   padding-top: 5px;
   text-align: center;
   font-size: 40px;
 }
+.logo {
+  font-variant-caps: all-petite-caps;
+  margin-left: 15px;
+  padding-top: 2.5px;
+  font-size: 23px;
+  cursor: pointer;
+}
 .h1tag:hover {
   font-size: 41px;
   cursor: pointer;
+}
+div.container {
+  align-items: center;
 }
 .backgroundforforum {
   top: 100px;
@@ -32,13 +43,17 @@
   background-color: orange;
 }
 .container {
-  background-image: linear-gradient(lightblue, rgb(17, 17, 138));
+  background-color: lightblue;
   padding: 20px;
+  left: 50%;
   border-radius: 5px;
-  width: 400px;
+  width: 390px;
   margin-left: 200px;
   margin-top: 100px;
-  box-shadow: 1px 2px 2px;
+  box-shadow: 0 0 50px;
+}
+p.text {
+  text-align: center;
 }
 .container h1 {
   text-align: center;
@@ -56,13 +71,15 @@
   padding: 15px;
   font-size: 16px;
   border: 0;
+  background-color: white;
   border-radius: 5px;
   padding-top: 20px;
   font-weight: bold;
 }
 .btn:hover {
   box-shadow: 2px 1px 1px;
-  color: green;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
 .btn:focus {
@@ -114,27 +131,51 @@
   text-align: center;
   padding-left: 28%;
 }
-button.btn {
-  margin-top: 20px;
-}
-.footer {
+.forumbtntop {
+  width: 60px;
+  list-style: none;
+  text-align: center;
+  height: 25px;
+  text-decoration: none;
+  padding-left: 5px;
+  font-size: 20px;
   position: absolute;
-  top: 1100px;
-  width: 120%;
-  height: 100px;
-  background-image: linear-gradient(rgb(255, 96, 96), rgb(255, 0, 0));
+  top: 2.5px;
+  border: 1px solid gray;
+  border-radius: 1.5px;
+  margin-left: 85%;
+  color: white;
+  background-color: lightblue;
+}
+
+.aboutbtntop {
+  width: 60px;
+  list-style: none;
+  text-align: center;
+  height: 25px;
+  padding-left: 5px;
+  font-size: 20px;
+  position: absolute;
+  top: 2.5px;
+  text-decoration: none;
+  border-radius: 1.5px;
+  margin-left: 70%;
+  color: white;
+  border: 1px solid gray;
+}
+
+.forum {
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  text-decoration: none;
+  font-size: 27px;
 }
 .about {
   background-color: transparent;
   box-shadow: 0 0 0;
   text-decoration: none;
   font-size: 27px;
-}
-.forum {
-  background-color: transparent;
-  box-shadow: 0 0 0;
-  text-decoration: none;
-  font-size: 27px;
+  text-align: center;
 }
 .forum:hover {
   color: white;
@@ -143,4 +184,16 @@ button.btn {
 .about:hover {
   color: white;
   font-size: 28px;
+}
+.footer {
+  position: absolute;
+  padding-top: 15px;
+  top: 1600px;
+
+  width: 100%;
+  color: black;
+  height: 120px;
+  font-size: 10px;
+  background-color: lightblue;
+  text-align: center;
 }

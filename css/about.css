@@ -1,50 +1,128 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Roboto", sans-serif;
 }
 body {
   background-color: rgb(240, 240, 240);
 }
 .navigation {
   width: 100%;
-  height: 30px;
+  height: 35px;
   background-color: lightblue;
   border-bottom: 2px solid gray;
 }
-li {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  font-size: 25px;
+.forumbtntop {
+  width: 60px;
   list-style: none;
-  font-variant-caps: all-small-caps;
-  padding-left: 25px;
-  padding-top: 25px;
-  padding-right: 25px;
-  height: 30px;
   text-align: center;
+  height: 25px;
+  text-decoration: none;
+  padding-left: 5px;
+  font-size: 20px;
+  position: absolute;
+  top: 2.5px;
+  border: 1px solid gray;
+  border-radius: 1.5px;
+  margin-left: 85%;
+  color: white;
+  background-color: lightblue;
+}
+.logo {
+  font-variant-caps: all-petite-caps;
+  margin-left: 15px;
+  padding-top: 2.5px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.aboutbtntop {
+  width: 60px;
+  list-style: none;
+  text-align: center;
+  height: 25px;
+  padding-left: 5px;
+  font-size: 20px;
+  position: absolute;
+  top: 2.5px;
+  text-decoration: none;
+  border-radius: 1.5px;
+  margin-left: 70%;
+  color: white;
+  border: 1px solid gray;
 }
 
 span:hover {
   cursor: pointer;
 }
-.container {
-  margin-top: 85px;
-  margin-left: 85px;
+.profile-card {
+  width: 550px;
+  margin-top: 150px;
+  margin-left: 20%;
+  height: 160px;
+  background-color: rgb(13, 110, 167);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.content-box {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  background: url(/profile-pic.JPG) center/cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px;
+}
+.content p {
+  font-size: 13px;
+  padding: 5px 0;
+  color: #ff0000;
+}
+.links a {
+  text-decoration: none;
+  color: #8d8d8d;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.fa-dribble:hover {
+  color: red;
+}
+.fa.linked-in:hover {
+  color: red;
+}
+.fa-instagram:hover {
+  color: red;
+}
+
+.btns {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.btns button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  outline: none;
   border-radius: 3px;
-  box-shadow: 1px 2px 1px;
-  width: 500px;
-  background-color: lightgray;
-  height: 200px;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.container:hover {
-  background-color: rgb(161, 161, 161);
+.btns button:nth-child(1) {
+  background-color: white;
+  color: blue;
 }
-.h4tag {
-  margin-left: 25px;
-  margin-top: 25px;
-  font-variant-caps: all-petite-caps;
+.btns button:nth-child(2) {
+  background-color: yellow;
+  color: green;
 }
 a {
   font-size: 25px;
@@ -85,5 +163,7 @@ a {
   color: black;
   height: 120px;
   font-size: 10px;
-  background-image: linear-gradient(rgb(113, 191, 218), darkblue);
+  background-color: lightblue;
+  text-align: center;
+  padding-top: 15px;
 }
