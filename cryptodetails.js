@@ -22,7 +22,7 @@ async function cryptoNames() {
             }
             
             console.log(cryptoData[i].name);
-            cryptoContainer.innerHTML = `<li class="cryptocard"><h3>${cryptoData[i].id}</h3><h4>${cryptoData[i].symbol}</h4><h5>${cryptoData[i].priceUsd} usd</h5></li>`;
+            cryptoContainer.innerHTML = `<li class="cryptocard"><h3>${cryptoData[i].id}</h3><h4>${cryptoData[i].symbol}</h4><h5>${cryptoData[i].priceUsd} usd<h5></h5>${cryptoData[i].changePercent24Hr} -24hrs</h5></li>`;
         }
 
 

@@ -24,10 +24,11 @@ span:hover {
   cursor: pointer;
 }
 .cryptocard {
+  border: 2px solid lightgray;
   margin-left: 20%;
   margin-top: 55px;
   width: 450px;
-  border-radius: 3px;
+  border-radius: 2px;
   height: 200px;
   color: black;
   cursor: pointer;
