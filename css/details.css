@@ -112,6 +112,8 @@ li.cryptocard {
   text-align: center;
   color: black;
   height: 120px;
+  padding-top: 15px;
+  margin-top: 25px;
   font-size: 10px;
   background-color: lightblue;
 }
