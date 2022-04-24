@@ -18,6 +18,7 @@ async function cryptoNames() {
         const response = await fetch(corsFixUrl);
         const responseJSON = await response.json(); // convert the response to json data
         const cryptoData = responseJSON.data;
+        console.log(cryptoData)
         for (let i = 0; i < cryptoData.length; i++) {
             if(i === 20) {
                 break
