@@ -13,9 +13,7 @@ async function cryptoNames() {
         const cryptoData = responseJSON.data;
         console.log(cryptoData)
         for (let i = 0; i < cryptoData.length; i++) {
-            if(i === 20) {
-                break
-            }
+            
             cryptoContainer.innerHTML += `<li><a href="detailcrypto.html?id=${cryptoData[i].id}">${cryptoData[i].id}</a></li>`;
         }
     }

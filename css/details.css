@@ -9,6 +9,9 @@
   background-color: lightblue;
   border-bottom: 2px solid lightgray;
 }
+p{
+  padding-left: 30px;
+}
 li {
   text-decoration: none;
   display: flex;

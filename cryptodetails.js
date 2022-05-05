@@ -16,7 +16,14 @@ async function cryptoNames() {
         const response = await fetch(corsFixUrl);
         const cryptoData = await response.json(); 
         console.log(cryptoData)
-         cryptoContainer.innerHTML = `<li>${cryptoData.data.id}</li>`;
+         cryptoContainer.innerHTML = `<li>${cryptoData.data.id} ${cryptoData.data.priceUsd}</li>
+         <p>volumeUsd24Hr: ${cryptoData.data.volumeUsd24Hr}</p>
+         <p>price USD: ${cryptoData.data.priceUsd}</p>
+         <p>symbol: ${cryptoData.data.symbol}</p>
+         <p>crypto rank: ${cryptoData.data.rank}</p>
+         
+         
+         `;
         
     }
     catch(error) {
