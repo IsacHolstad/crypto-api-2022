@@ -7,7 +7,7 @@
   width: 100%;
   height: 35px;
   background-color: lightblue;
-  border-bottom: 2px solid lightgray;
+  
 }
 p{
   padding-left: 30px;
@@ -23,45 +23,23 @@ li {
   padding-left: 25px;
   padding-inline-end: 3px;
 }
-span:hover {
-  cursor: pointer;
-}
-.cryptocard {
-  border: 2px solid lightgray;
-  margin-left: 20%;
-  margin-top: 55px;
-  width: 450px;
-  border-radius: 2px;
-  height: 200px;
-  color: black;
-  cursor: pointer;
-  text-decoration: dotted;
-  background-color: lightblue;
-}
-.cryptocard:hover {
-  box-shadow: 0 0 50px;
-}
-li.cryptocard {
+.container{
   text-align: center;
-  padding-top: 25px;
-  font-size: 25px;
-  font-variant-caps: all-petite-caps;
+  margin-top: 30px;
+  padding: 5px;
 }
+
+
 .forumbtntop {
-  width: 60px;
   list-style: none;
   text-align: center;
-  height: 25px;
   text-decoration: none;
   padding-left: 5px;
-  font-size: 20px;
   position: absolute;
   top: 2.5px;
-  border: 1px solid gray;
-  border-radius: 1.5px;
   margin-left: 85%;
-  color: white;
-  background-color: lightblue;
+  color: black;
+  font-weight: bold;
 }
 .logo {
   font-variant-caps: all-petite-caps;
@@ -72,19 +50,15 @@ li.cryptocard {
 }
 
 .aboutbtntop {
-  width: 60px;
   list-style: none;
   text-align: center;
-  height: 25px;
   padding-left: 5px;
-  font-size: 20px;
   position: absolute;
   top: 2.5px;
   text-decoration: none;
-  border-radius: 1.5px;
   margin-left: 70%;
-  color: white;
-  border: 1px solid gray;
+  color: black;
+  font-weight: bold;
 }
 
 .about {
