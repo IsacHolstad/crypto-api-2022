@@ -11,7 +11,9 @@
 }
 p{
   padding-left: 30px;
+  
 }
+
 li {
   text-decoration: none;
   display: flex;
@@ -22,6 +24,7 @@ li {
   font-variant-caps: all-small-caps;
   padding-left: 25px;
   padding-inline-end: 3px;
+
 }
 .container{
   text-align: center;
