@@ -22,6 +22,7 @@ async function cryptoNames() {
          <p>symbol: ${cryptoData.data.symbol}</p>
          <p>crypto rank: ${cryptoData.data.rank}</p>
          <p>marketCapUsd: ${cryptoData.data.marketCapUsd}</p>
+         <p class="changelast-day">change last 24hrs: ${cryptoData.data.changePercent24Hr}</p>
          
          
          `;
