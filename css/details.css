@@ -42,7 +42,7 @@ li {
   top: 2.5px;
   margin-left: 85%;
   color: black;
-  font-weight: bold;
+ 
 }
 .logo {
   font-variant-caps: all-petite-caps;
@@ -61,28 +61,7 @@ li {
   text-decoration: none;
   margin-left: 70%;
   color: black;
-  font-weight: bold;
-}
-
-.about {
-  background-color: transparent;
-  box-shadow: 0 0 0;
-  text-decoration: none;
-  font-size: 27px;
-}
-.forum {
-  background-color: transparent;
-  box-shadow: 0 0 0;
-  text-decoration: none;
-  font-size: 27px;
-}
-.forum:hover {
-  color: white;
-  font-size: 28px;
-}
-.about:hover {
-  color: white;
-  font-size: 28px;
+  
 }
 
 .footer {
