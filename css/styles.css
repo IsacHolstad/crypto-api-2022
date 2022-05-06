@@ -16,6 +16,7 @@
   padding-top: 2.5px;
   font-size: 23px;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 li {
@@ -52,7 +53,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  
+
 }
 
 .forumbtntop {
@@ -60,7 +61,7 @@ a:hover {
   text-align: center;
   text-decoration: none;
   padding-left: 5px;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 2.5px;
   border-radius: 1.5px;
@@ -73,7 +74,7 @@ a:hover {
   list-style: none;
   text-align: center;
   padding-left: 5px;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 2.5px;
   text-decoration: none;

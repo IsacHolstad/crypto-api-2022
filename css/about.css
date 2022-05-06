@@ -16,7 +16,7 @@ body {
   list-style: none;
   text-decoration: none;
   padding-left: 5px;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 2.5px;
   margin-left: 85%;
@@ -32,7 +32,7 @@ body {
 .aboutbtntop {
   list-style: none;
   padding-left: 5px;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 2.5px;
   text-decoration: none;
@@ -134,14 +134,7 @@ a {
   text-decoration: none;
   font-size: 27px;
 }
-.forum:hover {
-  color: white;
-  font-size: 28px;
-}
-.about:hover {
-  color: white;
-  font-size: 28px;
-}
+
 
 .footer {
   position: absolute;
