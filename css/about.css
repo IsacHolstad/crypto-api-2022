@@ -121,8 +121,6 @@ a {
   flex-direction: column;
   background-color: lightblue;
   color: black;
-  border-radius: 5px;
-  box-shadow: 1px 1px 1px 1px;
 }
 .about {
   background-color: transparent;
