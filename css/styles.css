@@ -96,25 +96,13 @@ a:hover {
   color: black;
 }
 
-.forum {
+
+.about .forum{
   background-color: transparent;
-  box-shadow: 0 0 0;
   text-decoration: none;
-  font-size: 27px;
-}
-.about {
-  background-color: transparent;
-  box-shadow: 0 0 0;
-  text-decoration: none;
-  font-size: 27px;
-}
-.forum:hover {
+  font-size: 18px;
   color: white;
-  font-size: 28px;
-}
-.about:hover {
-  color: white;
-  font-size: 28px;
+  font-weight: 100;
 }
 
 .footer {
@@ -124,5 +112,8 @@ a:hover {
   color: black;
   height: 120px;
   font-size: 10px;
-  background-color: lightblue;
+  background-color: #7d50b9;
+}
+.footer a{
+  color: white;
 }
