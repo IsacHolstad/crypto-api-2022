@@ -29,7 +29,7 @@ async function cryptoNames() {
         
     }
     catch(error) {
-        cryptoContainer.innerHTML = `<li>there is an error happening</li>`
+        cryptoContainer.innerHTML = `<li class="error-message">there is an error happening</li>`
        
     }
 }

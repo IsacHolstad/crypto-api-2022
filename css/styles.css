@@ -24,6 +24,9 @@
   cursor: pointer;
   text-decoration: underline;
 }
+.error-message{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
 li {
   text-decoration: none;
@@ -38,6 +41,7 @@ li {
   padding-right: 25px;
   height: 20px;
   text-align: center;
+
  
 }
 div.container {
@@ -59,6 +63,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
+  color: black;
 
 }
 
