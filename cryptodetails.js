@@ -2,11 +2,11 @@ const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get('id')
 
-const Apiurl = `api.coincap.io/v2/assets/${id}`;
+const ApiUrl = `api.coincap.io/v2/assets/${id}`;
 
 
 const proxy = "https://noroffcors.herokuapp.com/";
-const corsFixUrl = proxy + Apiurl;
+const corsFixUrl = proxy + ApiUrl;
 
 
 const cryptoContainer = document.querySelector(".container");
