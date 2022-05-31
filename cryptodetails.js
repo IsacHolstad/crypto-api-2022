@@ -13,7 +13,7 @@ const cryptoContainer = document.querySelector(".container");
 
 async function cryptoNames() {
     try{
-        const response = await fetch(corsFixUrl);
+        const response = await fetch(cryptoData);
         const cryptoData = await response.json(); 
         console.log(cryptoData)
          cryptoContainer.innerHTML = `<li>${cryptoData.data.id} ${cryptoData.data.priceUsd}</li>
