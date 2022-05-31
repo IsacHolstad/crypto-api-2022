@@ -3,6 +3,7 @@ const APIurl = "api.coincap.io/v2/assets/"
 const proxy = "https://noroffcors.herokuapp.com/";
 const corsFixUrl = proxy + APIurl;
 //var key = "66579196-1262-493b-bde9-f1a036eea696"
+console.log(corsFixUrl)
 
 const cryptoContainer = document.querySelector(".container");
 
