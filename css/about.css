@@ -45,11 +45,12 @@ span:hover {
   cursor: pointer;
 }
 .profile-card {
-  width: 550px;
+  width: 80%;
   margin-top: 150px;
-  margin-left: 20%;
+  margin-left: 5%;
   height: 160px;
-  background-color: rgb(22, 161, 84);
+  background-color: #7d50b9;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 10px;
   display: flex;
   align-items: center;

@@ -68,7 +68,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: black;
+  
 
 }
 
@@ -112,6 +112,8 @@ a:hover {
   top: 5000px;
   width: 100%;
   color: black;
+  font-variant: small-caps;
+  font-weight: 600;
   height: 120px;
   font-size: 10px;
   background-color: #7d50b9;
