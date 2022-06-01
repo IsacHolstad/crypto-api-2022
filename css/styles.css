@@ -13,7 +13,9 @@
 .navigation a {
   color: white;
   padding: 5px;
-  font-weight: 300;
+  font-variant: small-caps;
+
+  font-weight: 600;
 }
 
 .logo {
