@@ -62,7 +62,7 @@ a {
   text-decoration: none;
   flex-direction: column;
   color: rgb(75, 75, 75);
-  border-radius: 5px;
+  
 }
 a:hover {
   text-decoration: underline;
