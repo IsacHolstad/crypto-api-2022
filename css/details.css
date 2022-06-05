@@ -76,6 +76,9 @@ li {
 .changelast-day{
   color: red;
 }
+.marketcap{
+  color: green;
+}
 
 .footer {
   position: absolute;
