@@ -63,6 +63,7 @@ a {
   font-size: 25px;
   padding-left: 40px;
   display: flex;
+  font-weight: 500;
   text-decoration: none;
   flex-direction: column;
   color: rgb(75, 75, 75);
