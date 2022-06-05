@@ -104,7 +104,7 @@ a:hover {
 .about .forum{
   background-color: transparent;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   font-weight: 100;
 }
@@ -122,4 +122,9 @@ a:hover {
 }
 .footer a{
   color: white;
+  font-size: 18px;
+}
+.footer a:hover{
+  color: lime;
+  text-decoration: none;
 }
