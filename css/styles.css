@@ -16,6 +16,9 @@
   font-variant: small-caps;
   font-weight: 600;
 }
+li a:hover{
+  color: lime;
+}
 
 .logo {
   font-variant-caps: all-petite-caps;
