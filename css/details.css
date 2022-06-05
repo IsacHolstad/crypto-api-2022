@@ -50,6 +50,10 @@ li {
   padding-top: 2.5px;
   font-size: 23px;
   cursor: pointer;
+  text-decoration: underline;
+}
+.logo:hover{
+  color: #ffbb5a;
 }
 
 .aboutbtntop {
