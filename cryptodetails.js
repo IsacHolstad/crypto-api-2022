@@ -16,14 +16,15 @@ async function cryptoNames() {
         const response = await fetch(corsFixUrl);
         const cryptoData = await response.json(); 
         console.log(cryptoData)
-         cryptoContainer.innerHTML = `<li>${cryptoData.data.id} ${cryptoData.data.priceUsd}</li>
+         cryptoContainer.innerHTML = `<li class="crypto-name">${cryptoData.data.id} ${cryptoData.data.priceUsd}</li>
          <p>volumeUsd24Hr: ${cryptoData.data.volumeUsd24Hr}</p>
          <p>price USD: ${cryptoData.data.priceUsd}</p>
          <p>symbol: ${cryptoData.data.symbol}</p>
-         <p>crypto rank: ${cryptoData.data.rank}</p>
+         <p class="crypto-rank">crypto rank: ${cryptoData.data.rank}</p>
          <p class="marketcap">marketCapUsd: ${cryptoData.marketCapUsd}</p>
          <p>marketCapUsd: ${cryptoData.data.marketCapUsd}</p>
          <p class="changelast-day">change last 24hrs: ${cryptoData.data.changePercent24Hr}</p>
+         
          
          
          `;

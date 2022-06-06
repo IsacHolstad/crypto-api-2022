@@ -15,30 +15,6 @@
   font-variant: small-caps;
   font-weight: 600;
 }
-p{
-  padding-left: 30px;
-  
-}
-
-li {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  font-size: 25px;
-  list-style: none;
-  font-variant-caps: all-small-caps;
-  padding-left: 25px;
-  padding-inline-end: 3px;
-
-}
-.container{
-  text-align: center;
-  margin-top: 30px;
-  padding: 5px;
-}
-
-
 .forumbtntop {
   list-style: none;
   text-align: center;
@@ -72,9 +48,31 @@ li {
   cursor: pointer;
   text-decoration: none;
 }
-.logo:hover{
-  color: #ffbb5a;
+
+p{
+  font-variant-caps: all-petite-caps;
+  
 }
+li{
+  list-style-type: none;
+  font-variant-caps: all-petite-caps;
+}
+
+.crypto-name{
+  font-size: 40px;
+}
+.crypto-rank{
+  font-size: 25px;
+}
+
+.container{
+  text-align: center;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+
+
 .changelast-day{
   color: red;
 }
