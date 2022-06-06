@@ -3,6 +3,13 @@
   padding: 0px;
   font-family: "Roboto", sans-serif;
 }
+.logo {
+  font-variant-caps: all-petite-caps;
+  margin-left: 15px;
+  padding-top: 2.5px;
+  font-size: 23px;
+  cursor: pointer;
+}
 
 .navigation {
   width: 100%;
@@ -19,25 +26,20 @@
 .forumbtntop {
   list-style: none;
   text-decoration: none;
-  padding-left: 5px;
+  padding-right: 5px;
   font-size: 18px;
   position: absolute;
   background-color: transparent;
   top: 2.5px;
-  margin-left: 85%;
-}
-.logo {
-  font-variant-caps: all-petite-caps;
-  margin-left: 15px;
-  padding-top: 2.5px;
-  font-size: 23px;
-  cursor: pointer;
+  
+  margin-left: 80%;
 }
 
 .aboutbtntop {
   list-style: none;
+  right: 15px;
   background-color: transparent;
-  padding-left: 5px;
+  padding-right: 10px;
   font-size: 18px;
   position: absolute;
   top: 2.5px;

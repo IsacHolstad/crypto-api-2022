@@ -26,6 +26,7 @@
   padding-top: 2.5px;
   font-size: 23px;
   cursor: pointer;
+  text-decoration: none;
 }
 .h1tag:hover {
   font-size: 41px;
@@ -138,33 +139,29 @@ p.text {
   padding-left: 28%;
 }
 .forumbtntop {
-  width: 60px;
   list-style: none;
   text-align: center;
-  height: 25px;
   text-decoration: none;
   padding-left: 5px;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 2.5px;
-  margin-left: 85%;
-  color: white;
+  border-radius: 1.5px;
+  margin-left: 60%;
+  color: black;
   
 }
 
 .aboutbtntop {
-  width: 60px;
   list-style: none;
   text-align: center;
-  height: 25px;
   padding-left: 5px;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 2.5px;
   text-decoration: none;
   margin-left: 70%;
-  color: white;
-  
+  color: black;
 }
 
 .forum {
