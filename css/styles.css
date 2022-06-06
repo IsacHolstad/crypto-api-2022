@@ -162,6 +162,8 @@ a {
   .footer li {
     padding-top: 5px;
     padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 200;
   }
 
 }
