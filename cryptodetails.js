@@ -18,7 +18,7 @@ async function cryptoNames() {
         console.log(cryptoData)
          cryptoContainer.innerHTML = `<li class="crypto-name">${cryptoData.data.id} ${cryptoData.data.priceUsd}</li>
          <p>volumeUsd24Hr: ${cryptoData.data.volumeUsd24Hr}</p>
-         <p>price USD: ${cryptoData.data.priceUsd}</p>
+         <p class="price-usd">price USD: ${cryptoData.data.priceUsd}</p>
          <p>symbol: ${cryptoData.data.symbol}</p>
          <p class="crypto-rank">crypto rank: ${cryptoData.data.rank}</p>
          <p class="marketcap">marketCapUsd: ${cryptoData.marketCapUsd}</p>

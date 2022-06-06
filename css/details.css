@@ -56,13 +56,18 @@ p{
 li{
   list-style-type: none;
   font-variant-caps: all-petite-caps;
+
 }
 
 .crypto-name{
   font-size: 40px;
+  font-weight: 400;
 }
 .crypto-rank{
   font-size: 25px;
+}
+.price-usd{
+  color: green;
 }
 
 .container{
