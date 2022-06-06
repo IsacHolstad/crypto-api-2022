@@ -143,10 +143,25 @@ a {
     margin-left: 85%;
     color: black;
   }
+  li a {
+    width: 300px;
+    align-items: center;
+    position: relative;
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 0px;
+    justify-content: center;
+  }
   
   .footer{
     position: absolute;
-    top: 5000px;
+    top: 4800px;
+    height: 100px;
+  }
+  .footer li {
+    padding-top: 5px;
+    padding-bottom: 10px;
   }
 
 }
