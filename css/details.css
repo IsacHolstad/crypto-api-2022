@@ -44,11 +44,25 @@ li {
   text-align: center;
   text-decoration: none;
   padding-left: 5px;
+  font-size: 18px;
   position: absolute;
   top: 2.5px;
-  margin-left: 60%;
+  border-radius: 1.5px;
+  margin-left: 80%;
   color: black;
- 
+  
+}
+
+.aboutbtntop {
+  list-style: none;
+  text-align: center;
+  padding-left: 5px;
+  font-size: 18px;
+  position: absolute;
+  top: 2.5px;
+  text-decoration: none;
+  margin-left: 90%;
+  color: black;
 }
 .logo {
   font-variant-caps: all-petite-caps;
@@ -60,18 +74,6 @@ li {
 }
 .logo:hover{
   color: #ffbb5a;
-}
-
-.aboutbtntop {
-  list-style: none;
-  text-align: center;
-  padding-left: 5px;
-  position: absolute;
-  top: 2.5px;
-  text-decoration: none;
-  margin-left: 70%;
-  color: black;
-  
 }
 .changelast-day{
   color: red;

@@ -25,26 +25,28 @@
 }
 .forumbtntop {
   list-style: none;
+  text-align: center;
   text-decoration: none;
-  padding-right: 5px;
+  padding-left: 5px;
   font-size: 18px;
   position: absolute;
-  background-color: transparent;
   top: 2.5px;
-  
+  border-radius: 1.5px;
   margin-left: 80%;
+  color: black;
+  
 }
 
 .aboutbtntop {
   list-style: none;
-  right: 15px;
-  background-color: transparent;
-  padding-right: 10px;
+  text-align: center;
+  padding-left: 5px;
   font-size: 18px;
   position: absolute;
   top: 2.5px;
   text-decoration: none;
-  margin-left: 70%;
+  margin-left: 90%;
+  color: black;
 }
 
 
