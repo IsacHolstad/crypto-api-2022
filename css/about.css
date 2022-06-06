@@ -43,7 +43,6 @@
   top: 2.5px;
   text-decoration: none;
   margin-left: 70%;
-  text-decoration: underline;
 }
 
 
@@ -127,7 +126,8 @@ a {
   list-style: none;
   display: flex;
   flex-direction: column;
-  background-color: lightblue;
+  text-decoration: none;
+  
   color: black;
 }
 .about {
