@@ -147,11 +147,9 @@ p.text {
   font-size: 20px;
   position: absolute;
   top: 2.5px;
-  border: 1px solid gray;
-  border-radius: 1.5px;
   margin-left: 85%;
   color: white;
-  background-color: lightblue;
+  
 }
 
 .aboutbtntop {
@@ -164,10 +162,9 @@ p.text {
   position: absolute;
   top: 2.5px;
   text-decoration: none;
-  border-radius: 1.5px;
   margin-left: 70%;
   color: white;
-  border: 1px solid gray;
+  
 }
 
 .forum {
