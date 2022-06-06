@@ -17,7 +17,7 @@
   font-weight: 600;
 }
 li a:hover{
-  color: lime;
+  color: rgb(22, 22, 22);
 }
 
 .logo {
@@ -28,9 +28,7 @@ li a:hover{
   cursor: pointer;
   
 }
-.logo:hover{
-  color: #ffbb5a;
-}
+
 .error-message{
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -68,11 +66,6 @@ a {
   flex-direction: column;
   color: rgb(75, 75, 75);
   
-}
-a:hover {
-  text-decoration: underline;
-  
-
 }
 
 .forumbtntop {
@@ -126,6 +119,5 @@ a:hover {
   font-size: 18px;
 }
 .footer a:hover{
-  color: lime;
   text-decoration: none;
 }
