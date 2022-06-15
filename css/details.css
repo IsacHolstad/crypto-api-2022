@@ -87,13 +87,22 @@ li{
 
 .footer {
   position: absolute;
-  top: 1600px;
+  top: 5000px;
   width: 100%;
-  text-align: center;
-  color: black;
+  font-variant: small-caps;
+  font-weight: 600;
   height: 120px;
-  padding-top: 15px;
-  margin-top: 25px;
+  text-align: center;
+  text-decoration: none;
   font-size: 10px;
-  background-color: lightblue;
+  background-color: #7d50b9;
+}
+footer a{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+.footer a:hover{
+  text-decoration: none;
 }
