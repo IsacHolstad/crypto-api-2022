@@ -7,7 +7,7 @@ console.log(corsFixUrl)
 
 const cryptoContainer = document.querySelector(".container");
 
-async function cryptoNames() {
+(async function cryptoNames() {
     try{
         const response = await fetch(corsFixUrl);
         const responseJSON = await response.json(); // convert the response to json data
@@ -23,7 +23,7 @@ async function cryptoNames() {
        
     }
 }
-cryptoNames();
+)()
 
 const WholeResponse = [{
     "data": [
