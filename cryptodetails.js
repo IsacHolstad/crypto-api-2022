@@ -11,7 +11,7 @@ const corsFixUrl = proxy + ApiUrl;
 
 const cryptoContainer = document.querySelector(".container");
 
-async function cryptoNames() {
+(async function cryptoNames() {
     try{
         const response = await fetch(corsFixUrl);
         const cryptoData = await response.json(); 
@@ -35,4 +35,4 @@ async function cryptoNames() {
        
     }
 }
-cryptoNames();
+)();
