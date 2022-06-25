@@ -102,9 +102,17 @@ a {
   font-size: 10px;
   background-color: #7d50b9;
 }
-footer a{
+footer img{
   width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  display: block;
   margin: 0;
+  
+  cursor: pointer;
+  position: relative;
   
  
 }
