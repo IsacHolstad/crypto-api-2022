@@ -102,13 +102,13 @@ a {
   font-size: 10px;
   background-color: #7d50b9;
 }
-.footer a{
-  color: white;
-  font-size: 18px;
+footer a{
+  width: 40px;
+  margin: 0;
+  
+ 
 }
-.footer a:hover{
-  text-decoration: none;
-}
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .logo {
     font-variant-caps: all-petite-caps;
