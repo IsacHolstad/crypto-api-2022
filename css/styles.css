@@ -102,16 +102,18 @@ a {
   font-size: 10px;
   background-color: #7d50b9;
 }
-footer img{
+footer a{
   width: 40px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  display: block;
-  margin: 0;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
+  margin: 0px;
+  padding: 20px;
+
+  
+  
   
  
 }
