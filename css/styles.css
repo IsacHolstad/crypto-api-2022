@@ -58,6 +58,7 @@ span:hover {
 a {
   font-size: 25px;
   padding-left: 40px;
+  width: 90%;
   display: flex;
   font-weight: 500;
   text-decoration: none;
